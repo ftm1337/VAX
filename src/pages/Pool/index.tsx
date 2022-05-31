@@ -114,7 +114,7 @@ export default function Pool() {
       </AppBody>
 
       <div style={{ display: 'flex', alignItems: 'center', marginTop: '1.5rem' }}>
-        <ButtonSecondary as={Link} style={{ width: 'initial' }}>
+        <ButtonSecondary as={Link} style={{ width: 'initial' }} to='/pool'>
           All Liquidity Providers Earn Trade Fee generated on VAX!
         </ButtonSecondary>
       </div>
