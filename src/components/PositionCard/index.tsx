@@ -224,7 +224,7 @@ export default function FullPositionCard({ pair, border }: PositionCardProps) {
             </FixedHeightRow>
 
             <AutoRow justify="center" marginTop={'10px'}>
-              <ExternalLink href={`https://mtvscout.com/${pair.liquidityToken.address}/tokens#tokens`}>
+              <ExternalLink href={`https://mtvscout.com/address/${pair.liquidityToken.address}/tokens#tokens`}>
                 View pool information ↗
               </ExternalLink>
             </AutoRow>
