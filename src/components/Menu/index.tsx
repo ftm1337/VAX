@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg'
 import { useOnClickOutside } from '../../hooks/useOnClickOutside'
 import useToggle from '../../hooks/useToggle'
+import Nomics from '../../assets/svg/nomics.svg'
 
 import { ExternalLink } from '../../theme'
 
@@ -110,9 +111,13 @@ export default function Menu() {
             <MessageCircle size={14} />
             Discord
           </MenuItem>
+          <MenuItem id="link" href="https://nomics.com/exchanges/vax/markets">
+            <img src={Nomics} alt="nomics" width="1" />
+            Vax-o-Nomics
+          </MenuItem>
           <MenuItem id="link" href="https://mtvscout.com">
             <PieChart size={14} />
-            Analytics
+            MtvScout.com
           </MenuItem>
         </MenuFlyout>
       )}
