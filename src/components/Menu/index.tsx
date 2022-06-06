@@ -112,7 +112,7 @@ export default function Menu() {
             Discord
           </MenuItem>
           <MenuItem id="link" href="https://nomics.com/exchanges/vax/markets">
-            <img src={Nomics} alt="nomics" width="1" />
+            <img src={Nomics} alt="nomics" width="14px" />
             Vax-o-Nomics
           </MenuItem>
           <MenuItem id="link" href="https://mtvscout.com">
