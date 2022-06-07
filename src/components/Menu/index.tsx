@@ -50,7 +50,7 @@ const StyledMenu = styled.div`
 `
 
 const MenuFlyout = styled.span`
-  min-width: 10.125rem;
+  min-width: 8.125rem;
   background-color: ${({ theme }) => theme.bg3};
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.01), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04),
     0px 24px 32px rgba(0, 0, 0, 0.01);
@@ -112,7 +112,7 @@ export default function Menu() {
             Discord
           </MenuItem>
           <MenuItem id="link" href="https://nomics.com/exchanges/vax/markets">
-            <img src={Nomics} alt="nomics.com/exchanges/vax/markets" width="14px" style={{ margin-right: '0.5rem' }} />
+            <img src={Nomics} alt="nomics.com/exchanges/vax/markets" width="14px" style={{ marginRight: '0.5rem' }} />
             Vax-o-Nomics
           </MenuItem>
           <MenuItem id="link" href="https://mtvscout.com">
