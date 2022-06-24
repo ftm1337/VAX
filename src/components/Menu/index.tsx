@@ -115,18 +115,6 @@ export default function Menu() {
             <Send size={14} />
             Telegram
           </MenuItem>
-          <MenuItem id="link" href="https://nomics.com/exchanges/vax/markets">
-            <img src={Nomics} alt="nomics.com/exchanges/vax/markets" width="14px" style={{ marginRight: '0.5rem' }} />
-            Vax-o-Nomics
-          </MenuItem>
-          <MenuItem id="link" href="https://mtvscout.com/search-results?q=VAX">
-            <img src={MtvScout} alt="VAX@mtvscout" width="14px" style={{ marginRight: '0.5rem' }} />
-            Mtvscout
-          </MenuItem>
-          <MenuItem id="link" href="https://defillama.com/protocol/vax">
-            <img src={DefiLlama} alt="defillama.com/protocol/vax" width="14px" style={{ marginRight: '0.5rem' }} />
-            DefiLlama
-          </MenuItem>
           <MenuItem id="link" href="https://dao.ftm.guru">
             <img src={Governance} alt="ELITE DAO" width="14px" style={{ marginRight: '0.5rem' }} />
             Governance
@@ -134,6 +122,18 @@ export default function Menu() {
           <MenuItem id="link" href="https://debank.com/profile/Guru">
             <img src={Debank} alt="GURU@debank" width="14px" style={{ marginRight: '0.5rem' }} />
             Treasury
+          </MenuItem>
+          <MenuItem id="link" href="https://nomics.com/exchanges/vax/markets">
+            <img src={Nomics} alt="nomics.com/exchanges/vax/markets" width="14px" style={{ marginRight: '0.5rem' }} />
+            Vax-o-Nomics
+          </MenuItem>
+          <MenuItem id="link" href="https://defillama.com/protocol/vax">
+            <img src={DefiLlama} alt="defillama.com/protocol/vax" width="14px" style={{ marginRight: '0.5rem' }} />
+            DefiLlama
+          </MenuItem>
+          <MenuItem id="link" href="https://mtvscout.com/search-results?q=VAX">
+            <img src={MtvScout} alt="VAX@mtvscout" width="14px" style={{ marginRight: '0.5rem' }} />
+            Mtvscout
           </MenuItem>
         </MenuFlyout>
       )}
