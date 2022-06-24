@@ -21,6 +21,9 @@ import DoubleCurrencyLogo from '../DoubleLogo'
 import { AutoRow, RowBetween, RowFixed } from '../Row'
 import { Dots } from '../swap/styleds'
 
+import Nomics from '../../assets/svg/nomics.svg'
+import MtvScout from '../../assets/images/mtvscout.png'
+
 export const FixedHeightRow = styled(RowBetween)`
   height: 24px;
 `
@@ -224,10 +227,14 @@ export default function FullPositionCard({ pair, border }: PositionCardProps) {
             </FixedHeightRow>
 
             <AutoRow justify="center" marginTop={'10px'}>
+              <ExternalLink href={`https://nomics.com/exchanges/vax/markets/${pair.liquidityToken.address}`}>
+              Explore Pool on: <img src={Nomics} alt="nomics.com/exchanges/vax/markets" width="14px" style={{ marginRight: '0.5rem' }} />Nomics↗
+              </ExternalLink>
               <ExternalLink href={`https://mtvscout.com/address/${pair.liquidityToken.address}/tokens#tokens`}>
-                View pool information ↗
+              <img src={MtvScout} alt="VAX@mtvscout" width="14px" style={{ marginRight: '0.5rem' }} />Mtvscout↗
               </ExternalLink>
             </AutoRow>
+
             <RowBetween marginTop="10px">
               <ButtonSecondary as={Link} to={`/add/${currencyId(currency0)}/${currencyId(currency1)}`} width="48%">
                 Add
