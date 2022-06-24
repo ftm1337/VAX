@@ -104,7 +104,7 @@ export default function Menu() {
           <MenuItem id="link" href="https://twitter.com/FTM1337">
             <Twitter size={14} />
             Twitter
-          </Twitter>
+          </MenuItem>
           <MenuItem id="link" href="https://discord.gg/QpyfMarNrV">
             <MessageCircle size={14} />
             Discord
