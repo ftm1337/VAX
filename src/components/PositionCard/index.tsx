@@ -231,7 +231,7 @@ export default function FullPositionCard({ pair, border }: PositionCardProps) {
               Explore Pool on <img src={Nomics} alt="nomics.com/exchanges/vax/markets" width="14px" />Nomics↗
               </ExternalLink>
               <ExternalLink href={`https://mtvscout.com/address/${pair.liquidityToken.address}/tokens#tokens`}>
-              <img src={MtvScout} alt="VAX@mtvscout" width="14px" />Mtvscout↗
+              <img src={MtvScout} alt="VAX@mtvscout" width="14px" style={{ marginLeft: '0.25rem' }} />Mtvscout↗
               </ExternalLink>
             </AutoRow>
 
