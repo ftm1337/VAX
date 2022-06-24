@@ -1,10 +1,12 @@
 import React, { useRef } from 'react'
-import { Info, BookOpen, Code, PieChart, MessageCircle } from 'react-feather'
+import { Info, BookOpen, Code, PieChart, MessageCircle, Send, Twitter } from 'react-feather'
 import styled from 'styled-components'
 import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg'
 import { useOnClickOutside } from '../../hooks/useOnClickOutside'
 import useToggle from '../../hooks/useToggle'
 import Nomics from '../../assets/svg/nomics.svg'
+import MtvScout from '../../assets/images/mtvscout.png'
+import DefiLlama from '../../assets/svg/defillama.svg'
 
 import { ExternalLink } from '../../theme'
 
@@ -99,25 +101,29 @@ export default function Menu() {
             <Info size={14} />
             About
           </MenuItem>
-          <MenuItem id="link" href="https://mtv.guru">
-            <BookOpen size={14} />
-            Docs
-          </MenuItem>
-          <MenuItem id="link" href={CODE_LINK}>
-            <Code size={14} />
-            Code
-          </MenuItem>
+          <MenuItem id="link" href="https://twitter.com/FTM1337">
+            <Twitter size={14} />
+            Twitter
+          </Twitter>
           <MenuItem id="link" href="https://discord.gg/QpyfMarNrV">
             <MessageCircle size={14} />
             Discord
+          </MenuItem>
+          <MenuItem id="link" href="https://t.me/VAXDEX">
+            <Send size={14} />
+            Telegram
           </MenuItem>
           <MenuItem id="link" href="https://nomics.com/exchanges/vax/markets">
             <img src={Nomics} alt="nomics.com/exchanges/vax/markets" width="14px" style={{ marginRight: '0.5rem' }} />
             Vax-o-Nomics
           </MenuItem>
-          <MenuItem id="link" href="https://mtvscout.com">
-            <PieChart size={14} />
-            MtvScout.com
+          <MenuItem id="link" href="https://mtvscout.com/search-results?q=VAX">
+            <img src={MtvScout} alt="VAX@mtvscout.com" width="14px" style={{ marginRight: '0.5rem' }} />
+            Mtvscout
+          </MenuItem>
+          <MenuItem id="link" href="https://defillama.com/protocol/vax">
+            <img src={DefiLlama} alt="defillama.com/protocol/vax" width="14px" style={{ marginRight: '0.5rem' }} />
+            Mtvscout
           </MenuItem>
         </MenuFlyout>
       )}
