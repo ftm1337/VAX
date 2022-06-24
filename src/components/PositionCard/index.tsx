@@ -227,7 +227,7 @@ export default function FullPositionCard({ pair, border }: PositionCardProps) {
             </FixedHeightRow>
 
             <AutoRow justify="center" marginTop={'10px'}>
-              <ExternalLink href={`https://nomics.com/exchanges/vax/markets/${pair.liquidityToken.address}`}>
+              <ExternalLink href={`https://nomics.com/exchanges/vax/markets/${(pair.liquidityToken.address).toLowerCase()}`}>
               Explore Pool on <img src={Nomics} alt="nomics.com/exchanges/vax/markets" width="14px" />Nomics↗
               </ExternalLink>
               <ExternalLink href={`https://mtvscout.com/address/${pair.liquidityToken.address}/tokens#tokens`}>
