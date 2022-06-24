@@ -228,10 +228,10 @@ export default function FullPositionCard({ pair, border }: PositionCardProps) {
 
             <AutoRow justify="center" marginTop={'10px'}>
               <ExternalLink href={`https://nomics.com/exchanges/vax/markets/${pair.liquidityToken.address}`}>
-              Explore Pool on <img src={Nomics} alt="nomics.com/exchanges/vax/markets" width="14px" style={{ marginLeft: '0.5rem' }} />Nomics↗
+              Explore Pool on <img src={Nomics} alt="nomics.com/exchanges/vax/markets" width="14px" />Nomics↗
               </ExternalLink>
               <ExternalLink href={`https://mtvscout.com/address/${pair.liquidityToken.address}/tokens#tokens`}>
-              or <img src={MtvScout} alt="VAX@mtvscout" width="14px" style={{ marginLeft: '0.5rem' }} />Mtvscout↗
+              <img src={MtvScout} alt="VAX@mtvscout" width="14px" />Mtvscout↗
               </ExternalLink>
             </AutoRow>
 
