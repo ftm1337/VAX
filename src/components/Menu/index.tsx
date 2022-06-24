@@ -7,6 +7,8 @@ import useToggle from '../../hooks/useToggle'
 import Nomics from '../../assets/svg/nomics.svg'
 import MtvScout from '../../assets/images/mtvscout.png'
 import DefiLlama from '../../assets/svg/defillama.svg'
+import Debank from '../../assets/svg/debank.svg'
+import Governance from '../../assets/svg/governance.svg'
 
 import { ExternalLink } from '../../theme'
 
@@ -118,12 +120,20 @@ export default function Menu() {
             Vax-o-Nomics
           </MenuItem>
           <MenuItem id="link" href="https://mtvscout.com/search-results?q=VAX">
-            <img src={MtvScout} alt="VAX@mtvscout.com" width="14px" style={{ marginRight: '0.5rem' }} />
+            <img src={MtvScout} alt="VAX@mtvscout" width="14px" style={{ marginRight: '0.5rem' }} />
             Mtvscout
           </MenuItem>
           <MenuItem id="link" href="https://defillama.com/protocol/vax">
             <img src={DefiLlama} alt="defillama.com/protocol/vax" width="14px" style={{ marginRight: '0.5rem' }} />
-            Mtvscout
+            DefiLlama
+          </MenuItem>
+          <MenuItem id="link" href="https://dao.ftm.guru">
+            <img src={Governance} alt="ELITE DAO" width="14px" style={{ marginRight: '0.5rem' }} />
+            Governance
+          </MenuItem>
+          <MenuItem id="link" href="https://debank.com/profile/Guru">
+            <img src={Debank} alt="GURU@debank" width="14px" style={{ marginRight: '0.5rem' }} />
+            Treasury
           </MenuItem>
         </MenuFlyout>
       )}
