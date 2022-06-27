@@ -9,6 +9,8 @@ import MtvScout from '../../assets/images/mtvscout.png'
 import DefiLlama from '../../assets/svg/defillama.svg'
 import Debank from '../../assets/svg/debank.svg'
 import Governance from '../../assets/svg/governance.svg'
+import MtvGuru from '../../assets/images/mtvguru.png'
+import Grain from '../../assets/svg/grain.svg'
 
 import { ExternalLink } from '../../theme'
 
@@ -103,17 +105,13 @@ export default function Menu() {
             <Info size={14} />
             About
           </MenuItem>
-          <MenuItem id="link" href="https://twitter.com/FTM1337">
-            <Twitter size={14} />
-            Twitter
+          <MenuItem id="link" href="https://mtv.guru/LF">
+            <img src={MtvGuru} alt="mtv.guru/LF" width="14px" style={{ marginRight: '0.5rem' }} />
+            Farmlands
           </MenuItem>
-          <MenuItem id="link" href="https://discord.gg/QpyfMarNrV">
-            <MessageCircle size={14} />
-            Discord
-          </MenuItem>
-          <MenuItem id="link" href="https://t.me/VAXDEX">
-            <Send size={14} />
-            Telegram
+          <MenuItem id="link" href="https://mtv.guru/GRAIN">
+            <img src={Grain} alt="mtv.guru/GRAIN" width="14px" style={{ marginRight: '0.5rem' }} />
+            Kompound
           </MenuItem>
           <MenuItem id="link" href="https://dao.ftm.guru">
             <img src={Governance} alt="ELITE DAO" width="14px" style={{ marginRight: '0.5rem' }} />
@@ -134,6 +132,18 @@ export default function Menu() {
           <MenuItem id="link" href="https://mtvscout.com/search-results?q=VAX">
             <img src={MtvScout} alt="VAX@mtvscout" width="14px" style={{ marginRight: '0.5rem' }} />
             Mtvscout
+          </MenuItem>
+          <MenuItem id="link" href="https://twitter.com/FTM1337">
+            <Twitter size={14} />
+            Twitter
+          </MenuItem>
+          <MenuItem id="link" href="https://discord.gg/QpyfMarNrV">
+            <MessageCircle size={14} />
+            Discord
+          </MenuItem>
+          <MenuItem id="link" href="https://t.me/VAXDEX">
+            <Send size={14} />
+            Telegram
           </MenuItem>
         </MenuFlyout>
       )}
