@@ -101,12 +101,12 @@ export default function Menu() {
       </StyledMenuButton>
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://vax.mtv.guru">
+          <MenuItem id="link" href="https://mtv.guru">
             <Info size={14} />
             About
           </MenuItem>
           <MenuItem id="link" href="https://app.relaychain.com/#/cross-chain-bridge-transfer">
-            <img alt="🌉"/>
+            <img alt="🌉" style={{ marginRight: '0.5rem' }} />
             Bridge
           </MenuItem>
           <MenuItem id="link" href="https://mtv.guru/LF">
