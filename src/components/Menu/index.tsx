@@ -145,6 +145,9 @@ export default function Menu() {
             <Send size={14} />
             Telegram
           </MenuItem>
+          <MenuItem id="link" href="https://app.relaychain.com/#/cross-chain-bridge-transfer">
+            🗺 Bridge|Relay
+          </MenuItem>
         </MenuFlyout>
       )}
     </StyledMenu>
