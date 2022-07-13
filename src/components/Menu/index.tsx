@@ -105,9 +105,12 @@ export default function Menu() {
             <Info size={14} />
             About
           </MenuItem>
+          <MenuItem id="link" href="https://app.relaychain.com/#/cross-chain-bridge-transfer">
+            🌉<span style={{ marginLeft: '0.5rem' }} Bridge</span>
+          </MenuItem>
           <MenuItem id="link" href="https://mtv.guru/LF">
             <img src={MtvGuru} alt="mtv.guru/LF" width="14px" style={{ marginRight: '0.5rem' }} />
-            Farmlands
+            Farmland
           </MenuItem>
           <MenuItem id="link" href="https://mtv.guru/GRAIN">
             <img src={Grain} alt="mtv.guru/GRAIN" width="14px" style={{ marginRight: '0.5rem' }} />
@@ -144,9 +147,6 @@ export default function Menu() {
           <MenuItem id="link" href="https://t.me/VAXDEX">
             <Send size={14} />
             Telegram
-          </MenuItem>
-          <MenuItem id="link" href="https://app.relaychain.com/#/cross-chain-bridge-transfer">
-            🗺 Bridge|Relay
           </MenuItem>
         </MenuFlyout>
       )}
