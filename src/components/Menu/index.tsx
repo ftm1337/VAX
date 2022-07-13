@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { Info, MessageCircle, Send, Twitter, Edit3 } from 'react-feather'
+import { Grid, Info, MessageCircle, Send, Twitter, Edit3 } from 'react-feather'
 import styled from 'styled-components'
 import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg'
 import { useOnClickOutside } from '../../hooks/useOnClickOutside'
@@ -14,11 +14,13 @@ import Grain from '../../assets/svg/grain.svg'
 
 import { ExternalLink } from '../../theme'
 
+/*
 const StyledMenuIcon = styled(MenuIcon)`
   path {
     stroke: ${({ theme }) => theme.text1};
   }
 `
+*/
 
 const StyledMenuButton = styled.button`
   width: 100%;
@@ -97,7 +99,7 @@ export default function Menu() {
     // https://github.com/DefinitelyTyped/DefinitelyTyped/issues/30451
     <StyledMenu ref={node as any}>
       <StyledMenuButton onClick={toggle}>
-        <StyledMenuIcon />
+        <Grid />
       </StyledMenuButton>
       {open && (
         <MenuFlyout>
