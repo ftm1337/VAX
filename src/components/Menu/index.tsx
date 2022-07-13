@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import { Grid, Info, MessageCircle, Send, Twitter, Edit3 } from 'react-feather'
 import styled from 'styled-components'
-import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg'
+//import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg'
 import { useOnClickOutside } from '../../hooks/useOnClickOutside'
 import useToggle from '../../hooks/useToggle'
 import Nomics from '../../assets/svg/nomics.svg'
