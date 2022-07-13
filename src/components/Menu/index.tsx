@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { Info, MessageCircle, Send, Twitter } from 'react-feather'
+import { Info, MessageCircle, Send, Twitter, Edit3 } from 'react-feather'
 import styled from 'styled-components'
 import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg'
 import { useOnClickOutside } from '../../hooks/useOnClickOutside'
@@ -148,6 +148,10 @@ export default function Menu() {
           <MenuItem id="link" href="https://t.me/VAXDEX">
             <Send size={14} />
             Telegram
+          </MenuItem>
+          <MenuItem id="link" href="https://medium.com/@ftm1337">
+            <Edit3 size={14} />
+            Medium
           </MenuItem>
         </MenuFlyout>
       )}
