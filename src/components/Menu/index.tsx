@@ -106,7 +106,7 @@ export default function Menu() {
             About
           </MenuItem>
           <MenuItem id="link" href="https://app.relaychain.com/#/cross-chain-bridge-transfer">
-            🌉<span style={{ marginLeft: '0.5rem' }} Bridge</span>
+            🌉  Bridge
           </MenuItem>
           <MenuItem id="link" href="https://mtv.guru/LF">
             <img src={MtvGuru} alt="mtv.guru/LF" width="14px" style={{ marginRight: '0.5rem' }} />
