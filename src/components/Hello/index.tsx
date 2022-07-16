@@ -1,16 +1,9 @@
 import React, { useRef } from 'react'
-import { Command, BarChart, Info, MessageCircle, Send, Twitter, Edit3 } from 'react-feather'
+import { Smile, BarChart, Info, MessageCircle, Send, Twitter, Edit3 } from 'react-feather'
 import styled from 'styled-components'
 //import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg'
 import { useOnClickOutside } from '../../hooks/useOnClickOutside'
 import useToggle from '../../hooks/useToggle'
-import Nomics from '../../assets/svg/nomics.svg'
-import MtvScout from '../../assets/images/mtvscout.png'
-import DefiLlama from '../../assets/svg/defillama.svg'
-import Debank from '../../assets/svg/debank.svg'
-import Governance from '../../assets/svg/governance.svg'
-import MtvGuru from '../../assets/images/mtvguru.png'
-import Grain from '../../assets/svg/grain.svg'
 
 import { ExternalLink } from '../../theme'
 
@@ -22,7 +15,7 @@ const StyledMenuIcon = styled(MenuIcon)`
 `
 */
 
-const StyledMenuIcon = styled(Command)`
+const StyledMenuIcon = styled(Smile)`
   height: 20px;
   width: 20px;
 
@@ -112,45 +105,9 @@ export default function Hello() {
       </StyledMenuButton>
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://scan.mtv.guru/apr">
-            <BarChart size={14} />
-            Medium
-          </MenuItem>
           <MenuItem id="link" href="https://mtv.guru">
             <Info size={14} />
             About
-          </MenuItem>
-          <MenuItem id="link" href="https://app.relaychain.com/#/cross-chain-bridge-transfer">
-            <img alt="🌉" style={{ marginRight: '0.5rem' }} />
-            Bridge
-          </MenuItem>
-          <MenuItem id="link" href="https://mtv.guru/LF">
-            <img src={MtvGuru} alt="mtv.guru/LF" width="14px" style={{ marginRight: '0.5rem' }} />
-            Farmland
-          </MenuItem>
-          <MenuItem id="link" href="https://mtv.guru/GRAIN">
-            <img src={Grain} alt="mtv.guru/GRAIN" width="14px" style={{ marginRight: '0.5rem' }} />
-            Kompound
-          </MenuItem>
-          <MenuItem id="link" href="https://dao.ftm.guru">
-            <img src={Governance} alt="ELITE DAO" width="14px" style={{ marginRight: '0.5rem' }} />
-            Governance
-          </MenuItem>
-          <MenuItem id="link" href="https://debank.com/profile/Guru">
-            <img src={Debank} alt="GURU@debank" width="14px" style={{ marginRight: '0.5rem' }} />
-            Treasury
-          </MenuItem>
-          <MenuItem id="link" href="https://nomics.com/exchanges/vax/markets">
-            <img src={Nomics} alt="nomics.com/exchanges/vax/markets" width="14px" style={{ marginRight: '0.5rem' }} />
-            Vax-o-Nomics
-          </MenuItem>
-          <MenuItem id="link" href="https://defillama.com/protocol/vax">
-            <img src={DefiLlama} alt="defillama.com/protocol/vax" width="14px" style={{ marginRight: '0.5rem' }} />
-            DefiLlama
-          </MenuItem>
-          <MenuItem id="link" href="https://mtvscout.com/search-results?q=VAX">
-            <img src={MtvScout} alt="VAX@mtvscout" width="14px" style={{ marginRight: '0.5rem' }} />
-            Mtvscout
           </MenuItem>
           <MenuItem id="link" href="https://twitter.com/FTM1337">
             <Twitter size={14} />

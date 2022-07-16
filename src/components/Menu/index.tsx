@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { Command, BarChart, Info, MessageCircle, Send, Twitter, Edit3 } from 'react-feather'
+import { Command, BarChart } from 'react-feather'
 import styled from 'styled-components'
 //import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg'
 import { useOnClickOutside } from '../../hooks/useOnClickOutside'
@@ -116,10 +116,6 @@ export default function Menu() {
             <BarChart size={14} />
             Medium
           </MenuItem>
-          <MenuItem id="link" href="https://mtv.guru">
-            <Info size={14} />
-            About
-          </MenuItem>
           <MenuItem id="link" href="https://app.relaychain.com/#/cross-chain-bridge-transfer">
             <img alt="🌉" style={{ marginRight: '0.5rem' }} />
             Bridge
@@ -151,22 +147,6 @@ export default function Menu() {
           <MenuItem id="link" href="https://mtvscout.com/search-results?q=VAX">
             <img src={MtvScout} alt="VAX@mtvscout" width="14px" style={{ marginRight: '0.5rem' }} />
             Mtvscout
-          </MenuItem>
-          <MenuItem id="link" href="https://twitter.com/FTM1337">
-            <Twitter size={14} />
-            Twitter
-          </MenuItem>
-          <MenuItem id="link" href="https://discord.gg/QpyfMarNrV">
-            <MessageCircle size={14} />
-            Discord
-          </MenuItem>
-          <MenuItem id="link" href="https://t.me/VAXDEX">
-            <Send size={14} />
-            Telegram
-          </MenuItem>
-          <MenuItem id="link" href="https://medium.com/@ftm1337">
-            <Edit3 size={14} />
-            Medium
           </MenuItem>
         </MenuFlyout>
       )}
