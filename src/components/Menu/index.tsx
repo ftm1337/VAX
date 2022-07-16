@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { Grid, Info, MessageCircle, Send, Twitter, Edit3 } from 'react-feather'
+import { Command, BarChart, Info, MessageCircle, Send, Twitter, Edit3 } from 'react-feather'
 import styled from 'styled-components'
 //import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg'
 import { useOnClickOutside } from '../../hooks/useOnClickOutside'
@@ -21,6 +21,15 @@ const StyledMenuIcon = styled(MenuIcon)`
   }
 `
 */
+
+const StyledMenuIcon = styled(Command)`
+  height: 20px;
+  width: 20px;
+
+  > * {
+    stroke: ${({ theme }) => theme.text1};
+  }
+`
 
 const StyledMenuButton = styled.button`
   width: 100%;
@@ -99,10 +108,14 @@ export default function Menu() {
     // https://github.com/DefinitelyTyped/DefinitelyTyped/issues/30451
     <StyledMenu ref={node as any}>
       <StyledMenuButton onClick={toggle}>
-        <Grid />
+        <StyledMenuIcon />
       </StyledMenuButton>
       {open && (
         <MenuFlyout>
+          <MenuItem id="link" href="https://scan.mtv.guru/apr">
+            <BarChart size={14} />
+            Medium
+          </MenuItem>
           <MenuItem id="link" href="https://mtv.guru">
             <Info size={14} />
             About
