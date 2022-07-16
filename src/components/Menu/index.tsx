@@ -114,7 +114,7 @@ export default function Menu() {
         <MenuFlyout>
           <MenuItem id="link" href="https://scan.mtv.guru/apr">
             <BarChart size={14} />
-            Medium
+            APR Dashboard
           </MenuItem>
           <MenuItem id="link" href="https://app.relaychain.com/#/cross-chain-bridge-transfer">
             <img alt="🌉" style={{ marginRight: '0.5rem' }} />
