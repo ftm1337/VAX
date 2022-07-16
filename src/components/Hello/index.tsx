@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { Smile, BarChart, Info, MessageCircle, Send, Twitter, Edit3 } from 'react-feather'
+import { Smile, Info, MessageCircle, Send, Twitter, Edit3 } from 'react-feather'
 import styled from 'styled-components'
 //import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg'
 import { useOnClickOutside } from '../../hooks/useOnClickOutside'
