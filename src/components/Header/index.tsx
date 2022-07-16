@@ -17,6 +17,7 @@ import { currencyId } from '../../utils/currencyId'
 import { YellowCard } from '../Card'
 import Settings from '../Settings'
 import Menu from '../Menu'
+import Hello from '../Hello'
 
 import Row, { RowBetween } from '../Row'
 import Web3Status from '../Web3Status'
@@ -170,6 +171,7 @@ export default function Header() {
           <HeaderElementWrap>
             <Settings />
             <Menu />
+            <Hello />
           </HeaderElementWrap>
         </HeaderControls>
       </RowBetween>
