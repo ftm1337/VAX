@@ -120,10 +120,6 @@ export default function Menu() {
             <img alt="💹" style={{ marginRight: '0.5rem' }} />
             Pair Charts
           </MenuItem>
-          <MenuItem id="link" href="https://app.relaychain.com/#/cross-chain-bridge-transfer">
-            <img alt="🌉" style={{ marginRight: '0.5rem' }} />
-            Bridge
-          </MenuItem>
           <MenuItem id="link" href="https://mtv.guru/LF">
             <img src={MtvGuru} alt="mtv.guru/LF" width="14px" style={{ marginRight: '0.5rem' }} />
             Farmland
@@ -131,6 +127,10 @@ export default function Menu() {
           <MenuItem id="link" href="https://mtv.guru/GRAIN">
             <img src={Grain} alt="mtv.guru/GRAIN" width="14px" style={{ marginRight: '0.5rem' }} />
             Kompound
+          </MenuItem>
+          <MenuItem id="link" href="https://mtv.guru/seedr">
+            <img alt="🌱" style={{ marginRight: '0.5rem' }} />
+            SeedR
           </MenuItem>
           <MenuItem id="link" href="https://dao.ftm.guru">
             <img src={Governance} alt="ELITE DAO" width="14px" style={{ marginRight: '0.5rem' }} />
@@ -151,6 +151,10 @@ export default function Menu() {
           <MenuItem id="link" href="https://mtvscout.com/search-results?q=VAX">
             <img src={MtvScout} alt="VAX@mtvscout" width="14px" style={{ marginRight: '0.5rem' }} />
             Mtvscout
+          </MenuItem>
+          <MenuItem id="link" href="https://app.relaychain.com/#/cross-chain-bridge-transfer">
+            <img alt="🌉" style={{ marginRight: '0.5rem' }} />
+            Relay Bridge
           </MenuItem>
         </MenuFlyout>
       )}
