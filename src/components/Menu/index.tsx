@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { Command, BarChart } from 'react-feather'
+import { Command } from 'react-feather'
 import styled from 'styled-components'
 //import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg'
 import { useOnClickOutside } from '../../hooks/useOnClickOutside'
