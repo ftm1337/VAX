@@ -169,9 +169,9 @@ export default function Header() {
             </AccountElement>
           </HeaderElement>
           <HeaderElementWrap>
-            <Settings />
-            <Menu />
             <Hello />
+            <Menu />
+            <Settings />
           </HeaderElementWrap>
         </HeaderControls>
       </RowBetween>
