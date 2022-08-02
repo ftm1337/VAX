@@ -67,7 +67,7 @@ const StyledMenu = styled.div`
 `
 
 const MenuFlyout = styled.span`
-  min-width: 10.125rem;
+  min-width: 10.25rem;
   background-color: ${({ theme }) => theme.bg3};
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.01), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04),
     0px 24px 32px rgba(0, 0, 0, 0.01);
@@ -113,8 +113,12 @@ export default function Menu() {
       {open && (
         <MenuFlyout>
           <MenuItem id="link" href="https://scan.mtv.guru/apr">
-            <BarChart size={14} />
+            <img alt="💰" style={{ marginRight: '0.5rem' }} />
             APR Dashboard
+          </MenuItem>
+          <MenuItem id="link" href="https://charts.mtv.guru">
+            <img alt="💹" style={{ marginRight: '0.5rem' }} />
+            Pair Charts
           </MenuItem>
           <MenuItem id="link" href="https://app.relaychain.com/#/cross-chain-bridge-transfer">
             <img alt="🌉" style={{ marginRight: '0.5rem' }} />
