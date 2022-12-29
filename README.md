@@ -1,6 +1,7 @@
 # VAX : Value Added eXchange
 ## DEcentralized eXchange on MultiVAC
 ### https://mtv.guru
+To request addition to our default token list, please contact us at the Guru Network Disccord.
 #### https://discord.gg/QpyfMarNrV
 
 ----
